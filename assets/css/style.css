@@ -45,6 +45,12 @@ a {
     
 }
 
+.bottom-center {
+    background-color: #4aaaa5;
+    color: #ffffff
+    
+}
+
 #name {
     width: 100%;
 }
@@ -56,10 +62,13 @@ a {
 #message {
     width: 100%;
     height: 200px;
+    
 }
 
 body {
     width: 960px;
+    border-color: #dddddd; 
+    margin: auto;
     
 }
 
