@@ -35,7 +35,10 @@ h2 {
     background-color: #ffffff;
     border-color: #eeeeee;
     color: #4aaaa5;
-    padding: 20px;
+    margin-left: 20px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 3px solid #dddddd;
     
 
@@ -64,19 +67,24 @@ a {
 }
 
 #name {
-    width: 100%;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
 }
 
 #email {
-    width: 100%;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 10px;
    
 }
 
 #message {
-    width: 100%;
+    width: 95%;
     height: 200px;
-    
+    margin-bottom: 10px;
+    margin-top: 10px;
     
 }
 
@@ -85,7 +93,7 @@ a {
     color: #ffffff;
     padding: 5px;
     width: 100px;
-    margin: 20px;
+    
 }
 
 body {
@@ -93,5 +101,12 @@ body {
     border-color: #dddddd; 
     margin: auto;
     
+}
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
