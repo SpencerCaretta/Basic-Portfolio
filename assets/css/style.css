@@ -68,11 +68,67 @@ a {
     
 }
 
-.bottom-center {
+.Hangman {
     background-color: #4aaaa5;
-    color: #ffffff
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
     
 }
+
+.RPG-Game {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    left: 270px;
+    
+}
+
+.Trivia-Game {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 365px;
+    left: 20px;
+    
+}
+
+.Rutgers-Info-Widget {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 665px;
+    left: 270px;
+    
+}
+
+.Rock-Paper-Scissors {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 665px;
+    left: 20px;
+    
+}
+
+
 
 #name {
     width: 100%;
@@ -109,7 +165,7 @@ body {
     border-color: #dddddd; 
     margin: auto;
     background-image: url('../images/gravel/gravel.png');
-    
+    height: auto;
 }
 
 form {
@@ -151,4 +207,35 @@ h3 {
 p {
     line-height: 1.5;
     margin: 20px;
+}
+
+#Hangman {
+    position: relative;
+    padding: 20px;
+}
+
+#RPG-Game {
+    position: relative;
+    left: 250px;
+    bottom: 300px;
+    padding: 20px;
+}
+
+#Trivia-Game {
+    position: relative;
+    bottom: 285px;
+    padding: 20px;
+}
+
+#Rutgers-Info-Widget {
+    position: relative;
+    left: 250px;
+    bottom: 585px;
+    padding: 20px;
+}
+
+#Rock-Paper-Scissors {
+    position: relative;
+    bottom: 585px;
+    padding: 20px;
 }
