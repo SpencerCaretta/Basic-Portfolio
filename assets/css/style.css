@@ -34,7 +34,6 @@ footer {
     border-width: 1px;
     border-style: solid;
     
-    
 }
 
 h2 {
@@ -47,12 +46,11 @@ h2 {
     padding-bottom: 30px;
     border-bottom: 3px solid #dddddd;
     
-
 }
 
 header {
     display: inline-block;
-    width: 960px;
+    width: 100%;
     
 }
 
@@ -161,8 +159,7 @@ a {
 }
 
 body {
-    width: 960px;
-    border-color: #dddddd; 
+    width: 960px; 
     margin: auto;
     background-image: url('../images/gravel/gravel.png');
     height: auto;
@@ -201,6 +198,7 @@ h3 {
 #header {
     background-color: #ffffff;
     margin-bottom: 50px;
+    border-bottom: #dddddd solid 3px;
     
 }
 
